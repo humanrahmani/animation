@@ -1,0 +1,32 @@
+/* The animation code */
+@keyframes flyv {
+    0%   {left:0px; top:0px; height: 30px; width: 30px; padding-top: 800px;}
+
+    10%  {left:0px; top:0px; width: 60px; height: 60px; padding-left: 50px;}
+
+    20%  {left:0px; top:0px; width: 100px; height: 100px; padding-left: 100px;}
+
+    30%  {left:0px; top:0px; width: 150px; height: 150px; padding-left: 150px;}
+
+    40%  {left:0px; top:0px; width: 170px; height: 170px; padding-left: 200px;}
+
+    50%  {left:0px; top:0px; width: 190px; height: 190px; padding-left: 250px;}
+
+    60%  {left:0px; top:0px; width: 200px; height: 200px; padding-left: 300px;}
+
+    70%  {left:0px; top:0px; width: 250px; height: 250px; padding-left: 350px;}
+
+    80%  {left:0px; top:0px; width: 270px; height: 270px; padding-left: 400px;}
+
+    90%  {left:0px; top:0px; width: 320px; height: 320px; padding-left: 450px;}
+
+    100% {left:0px; top:0px; width: 400px; height: 400px; padding-left: 500px;}
+}
+
+
+#superman { width: 400px; height: 400px;
+  animation-name: flyv;
+      animation-duration: 5s; padding-left: 500px;
+  }
+
+body {background-image: url(images/new.jpg)}
